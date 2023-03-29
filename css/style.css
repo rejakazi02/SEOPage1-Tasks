@@ -1,0 +1,263 @@
+.list-main-div {
+    margin: 2% 0% 4% 3%;
+    overflow-x: scroll;
+}
+
+
+.list-sub-div {
+
+    /* display: flex; */
+    gap: 20px;
+    flex-direction: row;
+    width: 160vw;
+    padding-right: 3%;
+
+
+}
+
+.card-section-main-div {
+    width: 100%;
+    height: 85vh;
+    background-color: #EBEBEB;
+    overflow-y: scroll;
+    scrollbar-width: 10px;
+}
+
+.card-main-div {
+    margin: 5% 3%;
+}
+
+
+.header-div {
+    margin: 10% 2%;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+}
+
+
+
+.titel-div {
+    display: flex;
+    gap: 5px;
+    align-items: self-start;
+    justify-items: center;
+}
+
+.color-div {
+    background-color: #D21010;
+    border: none;
+    width: 20px;
+    height: 21px;
+    border-radius: 50% 0 0 50%;
+}
+
+.color-div2{
+    background-color: #00B5FF;
+    border: none;
+    width: 20px;
+    height: 21px;
+    border-radius: 50% 0 0 50%;
+}
+.color-div3{
+    background-color: #FFE700;
+    border: none;
+    width: 20px;
+    height: 21px;
+    border-radius: 50% 0 0 50%;
+}
+
+.heater-titel {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-count-div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.counter {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0e3e5;
+    margin-right: 9px;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+
+
+.card-div {
+    background-color: white;
+    border-radius: 3px;
+    padding: 2% 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.card-div .profile .left-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.card-div .profile .left-profile p {
+    margin-bottom: 0;
+    font-size: 9px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card-div .profile .left-profile img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.mid-content {
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: baseline;
+}
+
+
+
+.lorem-text-div {
+    display: flex;
+}
+
+.lorem-text-div i {
+    font-size: 11px;
+}
+
+.lorem-text-div span {
+    font-size: 9px;
+    margin-left: 4px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    max-width: 22ch;
+    height: 15px;
+}
+
+.count-page-div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 6px;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+}
+
+.count-page-div i {
+    font-size: 12px;
+}
+
+.count-page-div span {
+    font-size: 11px;
+    margin-left: 4px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+
+
+.last-content {
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-content img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.content-count {
+    height: 26px;
+    background-color: #EBEBEB;
+    border-radius: 50%;
+    width: 27px;
+    font-size: 12px;
+    margin-left: 4px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-div {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.chat-div i {
+    font-size: 15px;
+}
+
+.chat-div span {
+    margin-top: 3px;
+    font-size: 11px;
+    margin-left: 4px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.file-box {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.input {
+    display: none;
+}
+
+.label {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.label:hover {
+    cursor: pointer;
+
+}
+
+.paperclips {
+    font-size: 14px;
+}
+
+.file-count {
+    font-size: 11px;
+    margin-left: 4px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
